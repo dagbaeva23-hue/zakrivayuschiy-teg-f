@@ -1,1 +1,64 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+  --color-dark: #000;
+  --color-light: #fff;
+  --color-heart: #ff0000;
+
+  --color-bg-stripe: #d3d3d3;
+  --color-bg-gradient-start: #e7e7e7;
+  --color-bg-gradient-end: #1a1a1a;
+
+  --page-main-font: 'Inter-Variable', sans-serif;
+  --accent-font-family: 'PressStart2P', sans-serif;
+  --page-main-wght: 410;
+  --page-main-font-size: 18px;
+  --header-font-weight: 400;
+  --button-font-weight: 400;
+  --watermark-font-weight: 400;
+  --block-title-font-weght: 715;
+
+  --block-size: clamp(320px, 100%, 700px);
+  --header-padding: clamp(122px, 122px + (100vw - 327px) * 0.008, 130px);
+  --header-logo-size: clamp(3.063rem, 2.7109rem + 1.5023vw, 4.063rem);
+  --header-title-size: clamp(0.875rem, 0.6768rem + 0.8458vw, 1.438rem);
+  --block-title-font-size: 18px;
+  --button-font-size: 14px;
+  
+  --save-button-width: 335px;
+  --save-button-height: 55px;
+  --save-button-width-small: 306px;
+  --save-button-height-small: 84px;
+  --floppy-icon-size: 21px;
+  --floppy-icon-size-small: 28px;
+  --dialog-button-width: 293px;
+  --dialog-button-width-small: 261px;
+  --dialog-padding-inline: 30px;
+  --dialog-padding-inline-small: 40px;
+
+  --accent-color: var(--color-dark);
+  --accent-color-text: var(--color-light);
+  --block-border-color: var(--color-dark);
+  --block-background-color: var(--color-light);
+  --button-border-color: var(--color-dark);
+  --heart-contour-color: var(--color-dark);
+  --watermark-stroke-color: var(--color-light);
+  --animation-fill-color: var(--color-heart);
+  --heart-body-color: var(--color-heart);
+
+  --animation-duration: 0.3s;
+  --animation-easing: ease-in;
+  --fill-transition-duration: 0.3s;
+  --fill-transition-easing: linear;
+
+  --heart-scale-delay: 0.1s;
+  --sparks-opacity-delay: 0.3s;
+  
+  --fill-delay-core: 0.03s;
+  --fill-delay-main-body: 0.05s;
+  --fill-delay-contour: 0.06s;
+
+  --page-main-background: 
+    repeating-linear-gradient(to bottom, var(--color-bg-stripe) 0px 2px, transparent 2px 4px),
+    repeating-linear-gradient(to right, var(--color-bg-stripe) 0px 2px, transparent 2px 4px),
+    linear-gradient(to bottom, var(--color-bg-gradient-start) 0.01%, var(--color-bg-gradient-end) 100%);
+}
