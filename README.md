@@ -1,9 +1,2 @@
-## Репозиторий
-
-**https://github.com/dagbaeva23-hue/zakrivayuschiy-teg-f**
-
-
-## Демо
-
-**https://dagbaeva23-hue.github.io/zakrivayuschiy-teg-f/**
-
+- **Репозиторий:** https://github.com/dagbaeva23-hue/zakrivayuschiy-teg-f
+- **Демо (GitHub Pages):** https://dagbaeva23-hue.github.io/zakrivayuschiy-teg-f/
